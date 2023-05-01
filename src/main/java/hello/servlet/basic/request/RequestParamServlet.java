@@ -28,4 +28,5 @@ public class RequestParamServlet extends HttpServlet {
             System.out.println("name:"+name);//이렇게 같은 변수명에 여러개를 한번에 받을수도 있다.
         }
     }//이름이 중복되게 하나의 파라미터에 여러개의 정보를 보내면 우선순위에서 먼저잡힌애를 출력
-}//getParameterValues()-> 복수 파라미터 getParameter()->단일파라미터
+}//getParameterValues()-> 복수 파라미터 getParameter()->단일파라미ㅎㄷㅅ
+//request.getParameter()는 get-url parameter, post-html form 둘다 데이터 뽑을수 있음.
